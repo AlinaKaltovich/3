@@ -1,0 +1,104 @@
+html, body, header, menu{
+    margin:0 auto;
+    padding: 0;
+    max-width: 1200px;
+    font-family: sans-serif;
+}
+body{
+    color: #7C7C7C;
+}
+.logo{
+    background: #CCCCCC;
+    border: 1px solid black;
+    padding-bottom: 50px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    background: white;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.logo h1{
+    margin: 10px 0 0 0;
+}
+.logo p{
+    margin-top: 0;
+}
+.menu{
+    background: #383838;
+    display: flex;
+    border-left: 1px solid #353535;
+}
+.menu a{
+    color: #B0B0B0;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.menu a:hover{
+    background: white;
+    color: #7C7C7C;
+}
+main{
+    display: flex;
+    margin-top: 10px;
+}
+.nav-left{
+    width: 20%;
+    background-color: #CDCDCD;
+
+}
+.cotegory{
+    background-color: #353535;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.cotegory li{
+    list-style-type: none;
+   
+}
+.cotegory li a{
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #CDCDCD;
+}
+.cotegory li a:hover{
+    text-decoration: underline;
+    background: white;
+    color: #7C7C7C
+}
+article{
+    width: 80%;
+    margin-left: 10px; 
+}
+footer{
+    background-color: #353535;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
